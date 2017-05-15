@@ -20,7 +20,7 @@ class ExponentServerSdkTest < Minitest::Test
     }]
 
     args = [
-      'https://exp.host/--/api/v2/push/send/',
+      'https://exp.host/--/api/v2/push/send',
       {
         body: messages.to_json,
         headers: {
@@ -65,7 +65,7 @@ class ExponentServerSdkTest < Minitest::Test
     }]
 
     args = [
-      'https://exp.host/--/api/v2/push/send/',
+      'https://exp.host/--/api/v2/push/send',
       {
         body: messages.to_json,
         headers: {
